@@ -2,17 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Pangolin');
 
 @media screen and (max-width:480px) {
-  body {
-    font-size: 5px;
+  html {
+    font-size: 50%;
   }
 }
 
 @media screen and (min-width:480px) {
-  body {
-    font-size: 15px;
+  html {
+    font-size: 100%;
   }
 }
-
 
 * {
   box-sizing: border-box;
@@ -358,7 +357,7 @@ body span {
   opacity: 0.9;
   filter: alpha(opacity=90);
   color: #fff;
-  width: 51%;
+  width: 50%;
   height: 375px;
   display: flex;
   flex-direction: column;
@@ -527,6 +526,7 @@ body span {
 .apply-date {
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 50px;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -541,6 +541,17 @@ body span {
   flex-direction: column;
   justify-content: center;
 }
+
+.apply-button {
+  float: center;
+  background-color: #F59332;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+}
+
 /* footer */
 .footer {
   height: 100px;
