@@ -169,7 +169,7 @@ body span {
   height: 400px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-image: asset-data-url("about.jpg");
+  background-image: url("../assets/about.jpg");
   background-size: cover;
   background-position: center center;
   opacity: 0.9;
@@ -281,13 +281,13 @@ body span {
   }
 
   .adv-photo2 {
-    background-image: url(adv2);
+    background-image: url(../assets/adv2);
     background-position: center bottom;
   }
 
   .adv-photo3 {
     height: 300px;
-    background-image: url(adv3);
+    background-image: url(../assets/adv3);
     background-position: center center;
   }
 }
@@ -327,18 +327,18 @@ body span {
   }
 
   .adv-photo1 {
-    background-image: url(adv1);
+    background-image: url(../assets/adv1);
     background-position: center center;
   }
 
   .adv-photo2 {
-    background-image: url(adv2);
+    background-image: url(../assets/adv2);
     background-position: center bottom;
   }
 
   .adv-photo3 {
     height: 300px;
-    background-image: url(adv3);
+    background-image: url(../../assets/adv3);
     background-position: center center;
   }
 }
